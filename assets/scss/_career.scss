@@ -1,0 +1,82 @@
+.career{
+    @media (min-width:992px) {
+        .col-lg-6{
+            max-width: 47%;
+        }
+    }
+    .cc{
+        max-width: 800px;
+    margin-bottom: 0;
+    color: #626f7f;
+    font-size: 19px;
+    line-height: 28px;
+    }
+    .btn-join{
+        background-color: #0071e0;
+         
+        display: inline-block;
+            min-width: 160px;
+            padding: 12px 24px;
+            transition: 150ms;
+            color: #fff;
+            font-weight: 600;
+            text-align: center;
+            border-radius: 4px;
+        
+            
+         
+    }
+    .btn-learn{
+        background-color: #e3e3e4; 
+        display: inline-block;
+        min-width: 160px;
+        padding: 12px 24px;
+        transition: 150ms;
+        color: #626f7f;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .col-lg-6{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    background-color: #f7f9fa;
+    h2{
+        font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: left;
+    }
+
+    .img-01{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .career{
+        h2 {
+            font-size: 36px;
+            line-height: 42px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    .career{
+        h2 {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .gap-5{
+            gap: 30px !important;
+        }
+
+        .cc {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}

@@ -1,0 +1,105 @@
+@media (min-width:1199px) {
+    .container{
+        max-width: 1170px !important;
+    }
+}
+
+@media (max-width:1199px) {
+    .container{
+        max-width: 98% !important;
+    }
+}
+
+@media (max-width:992px) {
+    .navbar{
+        .gap-4{
+            gap: 0  !important;
+        }
+    }
+    .navbar-collapse{
+        background: #c8c8c8;
+    }
+    .nav-link{
+        padding: 20px;
+    }
+
+    .btn-hire{
+        width: 96% !important;
+        margin: 16px 8px;
+        
+    }
+    .c-btn{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+header{
+
+    .navbar-toggler{
+        background-color: #c8c8c8;
+        border-radius:  0 !important;
+        border-color: transparent;
+    }
+    .navbar-toggler-icon{
+        color: #fff !important;
+    }
+
+    .nav-item:hover{
+       .nav-link{
+        color: #0071e0 !important;
+        transition: 1s;
+       }
+    }
+    
+    
+    .btn-hire{
+        width: 110px;
+        height: 40px;
+    border: 1px #000;
+    border-radius: 4px;
+    background-color: #0071e0;
+    color: #fff;
+    }
+
+    .dropdown-menu {
+        min-width: 60px !important;
+        border-radius: 0 !important;
+        padding-top: 0;
+        padding-bottom: 0 ;
+        li:hover{
+            .dropdown-item{
+                color: #0071e0 !important;
+        transition: 1s;
+            }
+        }
+      }
+
+      .dropdown-item{
+        padding: 10px 20px !important;
+      }
+    a{
+        color: #222222 !important;
+    }
+   
+    .navbar{
+        padding: 0 !important;
+        .container{
+            padding: 0 !important;
+        }
+
+        .dropdown-menu {
+            background-color: #ececec;
+            
+        }
+    }
+    .logo{
+        height: 39px;
+        margin-top: 17px;
+        margin-bottom: 16px;
+    }
+}

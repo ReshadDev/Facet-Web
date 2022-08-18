@@ -1,0 +1,98 @@
+.hiring-solutions, .career-solutions{
+
+    .gap-5{
+        gap: 10rem !important;
+    }
+
+ 
+   
+.hr-head{
+    margin-bottom: 40px;
+}
+    .img{
+        width: 100%;
+    }
+    .cc{
+        max-width: 800px;
+    margin-bottom: 0;
+    color: #626f7f;
+    font-size: 19px;
+    line-height: 28px;
+    }
+    h2 {
+        margin-top: 0;
+        margin-bottom: 16px; 
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 700;
+        text-align: left;
+    }
+    h1{
+        margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 44px;
+    line-height: 54px;
+    font-weight: 700;
+    letter-spacing: -.57px;
+    }
+
+   .ls{
+    align-items: center;
+    color: #0071e0;
+    font-size: 19px;
+    line-height: 28px;
+    font-weight: 700;
+   }
+   .arrow{
+    i{
+        transform: translateY(1px);
+        font-weight: 800;
+    }
+    margin-left: 8px;
+   }
+}
+
+@media (min-width:992px) {
+   .hiring-solutions,.career-solutions{
+    .col-lg-6{
+        max-width: 46.5%;
+    }
+
+   
+   }
+}
+
+@media (max-width:991px) {
+    .hiring-solutions,.career-solutions{
+        .ch-key{
+            flex-direction: column-reverse;
+        }
+    }
+ }
+
+ @media screen and (max-width: 767px)
+{
+    .hiring-solutions,.career-solutions{
+        h2 {
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .cc {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        h1 {
+            margin-bottom: 16px;
+            font-size: 32px;
+            line-height: 40px;
+        }
+        .ls{
+            font-size: 16px;
+            line-height: 24px;
+        }
+        .gap-5{
+            gap: 40px !important;
+        }
+    }
+}

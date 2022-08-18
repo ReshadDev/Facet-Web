@@ -1,0 +1,30 @@
+@import '_navbar.scss';
+@import '_performance.scss';
+@import '_career.scss';
+@import '_hiring.scss';
+@import '_hiring.scss';
+@import '_footer.scss';
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container{
+    --bs-gutter-x: 0rem !important;
+}
+
+@media (max-width: 991px){
+    section {
+        padding-top: 80px !important;
+        padding-bottom: 80px !important;
+    }
+}
